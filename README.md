@@ -2,7 +2,8 @@
 - Nextjs
 - React
 - React-DOM
-
+- next/router (by default with Nextjs)
+- Styled-jsx  (by default with Nextjs)
 
 ## Start application
 
