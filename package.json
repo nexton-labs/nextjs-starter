@@ -4,16 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "isomorphic-fetch": "^2.2.1",
     "next": "^9.1.6",
+    "next-routes": "^1.4.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   }

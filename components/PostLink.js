@@ -1,10 +1,12 @@
 import React from 'react';
-import Link from 'next/link';
+import { Link } from '../routes';
 
 const PostLink = props => {
     return (
         <li>
-            <Link href={`/post-detail?id=${props.id}`}>
+            <Link route='post-detail' params={{
+                id: props.id
+            }}>
                 <a>{props.id}</a>
             </Link>
         </li>
